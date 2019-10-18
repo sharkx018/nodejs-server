@@ -59,6 +59,17 @@ app.get('/', (req, res)=>{
 
 });
 
+app.get('/portfolio', (req, res)=>{
+
+	res.render('project.hbs',{
+		tit:'Welcome to the Portfolio Page',
+		mess:'Project Page',
+		desc:'You opened the Portfolio page'
+	});
+
+
+});
+
 //app.
 
 
